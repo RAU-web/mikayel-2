@@ -1,0 +1,82 @@
+.main-box
+{
+	width: 500px;
+	height: 250px;
+	border: 1px black
+	border-radius: 20px;
+	background-color: darkblue;
+	
+	position: relative;
+}
+
+#front-box
+{
+	background-image: url("https://ak6.picdn.net/shutterstock/videos/2650946/thumb/1.jpg");
+	background-size: 499px auto;
+	border-radius: 20px;
+}	
+	
+.chip
+{
+	width: 70px;
+	height: 70px;
+	background-image: url("http://pngimage.net/wp-content/uploads/2018/05/credit-card-chip-png-3.png");
+	background-size: 60px auto;
+	background-repeat: no-repeat;
+	
+	
+	position: absolute;	
+	left: 320px;
+	top:  90px;
+}
+
+
+
+.logo
+{
+	width: 275px;
+	height: 85px;
+	background-image: url("https://www.ardshinbank.am/sites/default/files/logo_0.png");
+	background-size: 220px auto;
+	background-repeat: no-repeat;
+	
+	
+	position: relative;
+	left: 50px;
+	top: 15px;
+	
+}
+
+.maestro{
+	
+	width: 105px;
+	height: 90px;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4d/Maestro_logo.png");
+	background-size: 105px auto; 
+	background-repeat: no-repeat;
+	
+	position: absolute;
+	top: 175px;
+	left: 380px;
+	
+}
+
+.name{
+	font-size: 23px;
+	color: #262056;
+	position: absolute;
+	left: 70px;
+	top: 190px;
+	font-weight: bold;
+	
+}
+
+.id-number{
+	font-size: 27px;
+	color: #262056;
+	position: absolute;
+	left: 30px;
+	top: 150px;
+	
+
+}
